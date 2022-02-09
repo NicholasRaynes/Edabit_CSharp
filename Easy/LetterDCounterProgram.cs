@@ -12,7 +12,7 @@ namespace GitHubSandbox
     /// This program includes the declaration, implementation,
     /// and testing for the LetterDCounter method.
     /// </summary>
-    internal class Program
+    class LetterDCounterProgram
     {
         static void Main(string[] args)
         {
