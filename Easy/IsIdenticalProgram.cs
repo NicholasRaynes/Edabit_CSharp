@@ -12,7 +12,7 @@ namespace GitHubSandbox
     /// This class contains the declaration, implementation,
     /// and testing for the IsIdentical method.
     /// </summary>
-    internal class Program
+    class IsIdenticalProgram
     {
         public static void Main(string[] args)
         {
