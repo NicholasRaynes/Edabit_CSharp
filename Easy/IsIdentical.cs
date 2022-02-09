@@ -1,7 +1,17 @@
+/*
+ * Name: Nicholas Raynes
+ * Version: 0.0.1
+ * Source: https://edabit.com/challenge/zhbYFanESDL3RfSyt
+ */
+
 using System;
 
 namespace GitHubSandbox
 {   
+    /// <summary>
+    /// This class contains the declaration, implementation,
+    /// and testing for the IsIdentical method.
+    /// </summary>
     internal class Program
     {
         public static void Main(string[] args)
@@ -21,6 +31,13 @@ namespace GitHubSandbox
             Console.ReadKey();
         }
         
+        /// <summary>
+        /// This method returns true if all characters in a 
+        /// string are identical, and false otherwise.
+        /// </summary>
+        /// <param name="str">The string to be tested.</param>
+        /// <returns>Whether or not all characters within the string
+        /// are identical</returns>
         public static bool IsIdentical(string str)
         {
             char firstCharacter = str[0];
