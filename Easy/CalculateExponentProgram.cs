@@ -1,7 +1,17 @@
+/*
+ * Name: Nicholas Raynes
+ * Version: 0.0.1
+ * Source: https://edabit.com/challenge/esARjHfWfdRP6ePEC
+ */
+
 using System;
 
 namespace GitHubSandbox
 {   
+    /// <summary>
+    /// This class contains the declaration, implementation,
+    /// and testing for the CalculateExponent method.
+    /// </summary>
     public class CalculateExponentProgram
     {
         public static void Main(string[] args)
@@ -15,6 +25,13 @@ namespace GitHubSandbox
             Console.ReadKey();
         }
         
+        /// <summary>
+        /// This method takes a base number and an exponent number and returns 
+        /// the calculation.
+        /// </summary>
+        /// <param name="baseNumber">The base value for the calculation.</param>
+        /// <param name="exponentNumber">The exponent value for the calculation.</param>
+        /// <returns>The base value to the power of the exponent value.</returns>
         public static long CalculateExponent(long baseNumber, long exponentNumber)
         {
             return (long)Math.Pow(baseNumber, exponentNumber);
