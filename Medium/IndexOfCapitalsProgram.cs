@@ -1,9 +1,18 @@
+/*
+ * Name: Nicholas Raynes
+ * Version: 0.0.1
+ * Source: https://edabit.com/challenge/6qFnpAhd3kdmYcNG2
+ */
+
 using System;
-using System.Linq;
 using System.Collections.Generic;
 
 namespace GitHubSandbox
 {
+    /// <summary>
+    /// This class contains the declaration, implementation,
+    /// and testing for the IndexOfCapitals method.
+    /// </summary>
     public class IndexOfCapitalsProgram
     {
 	public static void Main(string[] args)
@@ -19,6 +28,12 @@ namespace GitHubSandbox
 		Console.ReadKey();
 	}
 
+	/// <summary>
+        /// This method takes a single string as argument and returns an ordered array containing 
+	/// the indices of all the capital letters in the string.
+	/// </summary>
+	/// <param name="input">The string to be scanned through for capital letters.</param>
+	/// <returns>An array containing all the capital letters within the input string.</returns>
 	public static int[] IndexOfCapitals(string input)
 	{
 		string lowerString = input.ToLower();
