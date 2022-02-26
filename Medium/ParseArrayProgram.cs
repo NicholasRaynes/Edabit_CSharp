@@ -2,6 +2,10 @@ using System;
 
 namespace GitHubSandbox
 {
+    /// <summary>
+    /// This class contains the declaration, implementation,
+    /// and testing for the ParseArray method.
+    /// </summary>
     public class ParseArrayProgram
     {
         static void Main(string[] args)
@@ -19,6 +23,11 @@ namespace GitHubSandbox
             Console.ReadKey();
         }
         
+        /// <summary>
+        /// This method takes an array of integers and strings, converts integers to strings, and returns the array as a string array.
+        /// </summary>
+        /// <param name="arr">The provided array to be scanned through.</param>
+        /// <returns>The new string array that consists of converted integers.</returns>
         public static string[] ParseArray(object[] arr)
         {
             string[] newArr = new string[arr.Length];
