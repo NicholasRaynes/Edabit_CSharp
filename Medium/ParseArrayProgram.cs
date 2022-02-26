@@ -1,3 +1,9 @@
+/*
+ * Name: Nicholas Raynes
+ * Version: 0.0.1
+ * Source: https://edabit.com/challenge/hqTYj7NbLnCcjxryi
+ */
+
 using System;
 
 namespace GitHubSandbox
