@@ -1,3 +1,9 @@
+/*
+ * Name: Nicholas Raynes
+ * Version: 0.0.1
+ * Source: https://edabit.com/challenge/aQWAAz6SiApZBA8A8
+ */
+
 using System;
 using System.Linq;
 using System.Collections.Generic;
