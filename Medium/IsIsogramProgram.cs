@@ -4,6 +4,10 @@ using System.Collections.Generic;
 
 namespace GitHubSandbox
 {
+    /// <summary>
+    /// This class contains the declaration, implementation,
+    /// and testing for the IsIsogram method.
+    /// </summary>
     public class IsIsogramProgram
     {
         public static void Main(string[] args)
@@ -17,6 +21,11 @@ namespace GitHubSandbox
             Console.ReadKey();
         }
         
+        /// <summary>
+        /// This method takes a string and returns either true or false depending on whether or not it's an "isogram".
+        /// </summary>
+        /// <param name="input">The provided string to be evaluated.</param>
+        /// <returns>Whether or not the provided string is an isogram.</returns>
         public static bool IsIsogram(string input)
         {
             input = input.ToLower();
