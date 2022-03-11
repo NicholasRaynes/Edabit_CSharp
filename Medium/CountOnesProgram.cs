@@ -3,22 +3,23 @@ using System.Linq;
 
 namespace GitHubSandbox
 {
-	public class CountOnesProgram
+    public class CountOnesProgram
     {
-		public static int CountOnes(int i)
+	public static int CountOnes(int i)
+	{
+		string binary = Convert.ToString(i, 2);
+
+		int count = 0;
+
+		foreach (char c in binary)
 		{
-			string binary = Convert.ToString(i, 2);
-
-			int count = 0;
-
-			foreach (char c in binary)
+			if (c == '1')
 			{
-				if (c == '1')
-				{
-					count++;
-				}
+				count++;
 			}
-			return count;
+		}
+			
+		return count;
 		}
 	}
 }
