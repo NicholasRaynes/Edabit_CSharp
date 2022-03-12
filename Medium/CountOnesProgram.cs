@@ -3,6 +3,10 @@ using System.Linq;
 
 namespace GitHubSandbox
 {
+    /// <summary>
+    /// This class contains the declaration, implementation,
+    /// and testing for the CountOnes method.
+    /// </summary>
     public class CountOnesProgram
     {
 	public static void Main(string[] args)
@@ -16,6 +20,12 @@ namespace GitHubSandbox
 		Console.ReadKey();
 	}
 	    
+	/// <summary>
+	/// This method counts the amount of ones in the provided binary 
+	/// representation of an integer.
+	/// </summary>
+	/// <param name="i">The provided binary representation of an integer.</param>
+	/// <returns></returns>
 	public static int CountOnes(int i)
 	{
 		string binary = Convert.ToString(i, 2);
