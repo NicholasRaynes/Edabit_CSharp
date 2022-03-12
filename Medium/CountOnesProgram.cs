@@ -1,3 +1,9 @@
+/*
+ * Name: Nicholas Raynes
+ * Version: 0.0.1
+ * Source: https://edabit.com/challenge/zn3A3AAzoE7vezw7Q
+ */
+
 using System;
 using System.Linq;
 
