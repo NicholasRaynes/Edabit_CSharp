@@ -2,6 +2,10 @@ using System;
 
 namespace GitHubSandbox
 {
+    /// <summary>
+    /// This class contains the declaration, implementation,
+    /// and testing for the ReverseAndNot method.
+    /// </summary>
     public class ReverseAndNotProgram
     {
         public static void Main(string[] args)
@@ -15,6 +19,12 @@ namespace GitHubSandbox
             Console.ReadKey();
         }
         
+        /// <summary>
+        /// This method takes an integer i and returns a string with the integer backwards followed 
+        /// by the original integer.
+        /// </summary>
+        /// <param name="i">The provided integer.</param>
+        /// <returns>A string container the integer reversed, followed by the original integer.</returns>
         public static string ReverseAndNot(int i)
         {
             string input = i.ToString();
