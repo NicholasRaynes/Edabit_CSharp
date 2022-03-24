@@ -4,6 +4,10 @@ using System.Globalization;
 
 namespace GitHubSandbox
 {
+    /// <summary>
+    /// This class contains the declaration, implementation,
+    /// and testing for the WeekAfter method.
+    /// </summary>
     public class WeekAfterProgram
     {
         public static void Main(string[] args)
