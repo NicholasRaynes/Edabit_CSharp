@@ -17,6 +17,11 @@ namespace GitHubSandbox
             Console.ReadKey();
         }
         
+        /// <summary>
+        /// This method takes in a date as a string, and returns the date a week after.
+        /// </summary>
+        /// <param name="date">The initial date.</param>
+        /// <returns>The new date, a week after the initial date.</returns>
         public static string WeekAfter(string date)
         {
             DateTime d = new DateTime();
