@@ -9,12 +9,12 @@ namespace GitHubSandbox
       Array.Sort(arr);
       
       for (int i = 0; i < arr.Length - 1; i++)
-			{
-				if (arr[i] + 1 != arr[i + 1])
-				{
-					return false;
-				}
-			}
+      {
+      	if (arr[i] + 1 != arr[i + 1])
+	{
+	  return false;
+	}
+      }
       
       return true;
     }
