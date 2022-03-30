@@ -18,7 +18,14 @@ namespace GitHubSandbox
 	Console.WriteLine("Press any key to exit...");
 	Console.ReadKey();
     } 
-	  
+    
+    /// <summary>
+    /// This method determines whether elements in an array can be re-arranged to form a consecutive list of 
+    /// numbers where each number appears exactly once.
+    /// </summary>
+    /// <param name="arr">The provided array to be evaluated.</param>
+    /// <returns>Wether or not the provided array can be re-arranged to form a consecutive list
+    /// of numbers where each number appears exactly once.</returns>
     public static bool ConsecutiveNumbers(int[] arr)
     {
       Array.Sort(arr);
