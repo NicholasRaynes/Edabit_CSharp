@@ -2,6 +2,10 @@ using System;
 
 namespace GitHubSandbox
 {
+  /// <summary>
+  /// This class contains the declaration, implementation,
+  /// and testing for the ConsecutiveNumbers method.
+  /// </summary>
   public class ConsecutiveNumbersProgram
   {
     public static void Main(string[] args)
