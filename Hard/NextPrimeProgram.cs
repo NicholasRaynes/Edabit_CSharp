@@ -2,6 +2,10 @@ using System;
 
 namespace GitHubSandbox
 {
+    /// <summary>
+    /// This class contains the declaration, implementation,
+    /// and testing for the NextPrime method.
+    /// </summary>
     public class NextPrimeProgram
     {
         public static void Main(String[] args)
