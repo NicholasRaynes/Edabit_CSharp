@@ -15,6 +15,12 @@ namespace GitHubSandbox
             Console.ReadKey();
         }
         
+        /// <summary>
+        /// Given an integer, this method returns the next prime. If the number is prime, 
+        /// return the number itself.
+        /// </summary>
+        /// <param name="num">The provided integer.</param>
+        /// <returns>The next prime, unless the number is a prime, then return the number itself.</returns>
         public static int NextPrime(int num)
         {
             int result = 1;
