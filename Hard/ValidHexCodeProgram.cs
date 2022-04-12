@@ -5,7 +5,17 @@ namespace GitHubSandbox
 {
     public class ValidHexCodeProgram
     {
-	    		
+	public static void Main(string[] args)
+        {
+		// Testing
+		Console.WriteLine("Test #1 - ValidHexCode('#CD5C5C')\n{0}\n", ValidHexCode("#CD5C5C"));
+		Console.WriteLine("Test #2 - ValidHexCode('#CD5C58C')\n{0}\n", ValidHexCode("#CD5C58C"));
+		Console.WriteLine("Test #3 - ValidHexCode('CD5C5C')\n{0}\n", ValidHexCode("CD5C5C"));
+
+		Console.WriteLine("Press any key to exit...");
+		Console.ReadKey();
+	} 
+	    
     	public static bool ValidHexCode(string str)
 	{
 		string alpha = "#abcdef0123456789";
