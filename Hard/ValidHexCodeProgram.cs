@@ -15,7 +15,12 @@ namespace GitHubSandbox
 		Console.WriteLine("Press any key to exit...");
 		Console.ReadKey();
 	} 
-	    
+	
+	/// <summary>
+	/// This method determines whether a string is a valid hex code.
+	/// </summary>
+	/// <param name="str">The provided string to be evaluated.</param>
+	/// <returns>Whether or not the provided string is a valid hex code.</returns>
     	public static bool ValidHexCode(string str)
 	{
 		string alpha = "#abcdef0123456789";
