@@ -3,6 +3,10 @@ using System.Linq;
 
 namespace GitHubSandbox
 {
+    /// <summary>
+    /// This class contains the declaration, implementation,
+    /// and testing for the ValidHexCode method.
+    /// </summary>
     public class ValidHexCodeProgram
     {
 	public static void Main(string[] args)
