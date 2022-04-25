@@ -17,6 +17,12 @@ namespace GitHubSandbox
             Console.ReadKey();
         }
         
+        /// <summary>
+        /// A string is an almost-palindrome if, by changing only one character, you can make it a palindrome. 
+        /// This method returns true if a string is an almost-palindrome and false otherwise.
+        /// </summary>
+        /// <param name="str">The provided string to be evaluated.</param>
+        /// <returns>Whether or not a string is an almost-palindrome.</returns>
         public static bool AlmostPalindrome(string str)
         {
             int count = 0;
