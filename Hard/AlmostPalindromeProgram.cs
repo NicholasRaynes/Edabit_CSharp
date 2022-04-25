@@ -3,6 +3,10 @@ using System.Linq;
 
 namespace GitHubSandbox
 {
+    /// <summary>
+    /// This class contains the declaration, implementation,
+    /// and testing for the AlmostPalindrome method.
+    /// </summary>
     public class AlmostPalindromeProgram
     {
         public static void Main(String[] args)
